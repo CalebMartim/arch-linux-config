@@ -33,7 +33,7 @@ My configuration files for my custom Arch Linux build
 
     Status bar
 
-## Other programas
+## Other programs
 - code
 
     Programming
