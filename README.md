@@ -82,5 +82,5 @@ Run `$ rofi-theme-selector` to apply the gruvbox-dark-soft theme
 
 To enable drag and drop in Ranger install dragon-drop from the AUR; Create Ranger config files by typing `$ ranger --copy-config=all` and on the rc.conf file add this line:
 
-	```map <C-d> shell dragon-drop -a -x %p --and-exit```
+	map <C-d> shell dragon-drop -a -x %p --and-exit
 Now when you select a file and press ctrl + d, it will enable you to drag and drop it somewhere
