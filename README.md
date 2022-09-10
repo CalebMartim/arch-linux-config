@@ -32,21 +32,45 @@ My configuration files for my custom Arch Linux build
 - polybar
 
     Status bar
+- rofi
+
+    Task runner
+- pulseaudio and alsa-utils
+
+    For audio configuration
 - fish
 
-    Bash 
-- openssh
+    Shell 
+- ranger
 
-    Generating ssh keys for authentication
+    File management
 
 
-## Other programs
+
+## Useful programs
 - code
 
     Programming
 - gimp
 
     Image editing
+- lxappearance
+
+    For setting GTK themes
+
+
+# Nice to have programs
+- pfetch
+
+    Minimalist system info display
+
+- peaclock
+
+    Minimalist clock on terminal window
+
+- cava
+
+    Terminal audio visualizer
 
 ## Observations
 Use `$ xdg-mime default firefox.desktop x-scheme-handler/https x-scheme-handler/http` to make Firefox the default browser
