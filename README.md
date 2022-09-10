@@ -32,6 +32,13 @@ My configuration files for my custom Arch Linux build
 - polybar
 
     Status bar
+- fish
+
+    Bash 
+- openssh
+
+    Generating ssh keys for authentication
+
 
 ## Other programs
 - code
