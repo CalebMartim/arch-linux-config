@@ -2,75 +2,85 @@
 My configuration files for my custom Arch Linux build
 
 ## Base system programs
-- xf86-video-amdgpu 
+- **xf86-video-amdgpu** 
 
     For graphics card drivers. (use xf86-video-intel if using an intel cpu)
-- xorg
+- **xorg**
 
     Display server
-- xorg-xinit
+- **xorg-xinit**
 
     For starting the xorg display server
-- xdg-utils
+- **xdg-utils**
 
     Program that helps integrate applications and your desktop. It helps adding a default browser for example. 
-- picom
+- **picom**
 
     Compositor
-- bspwm
+- **bspwm**
 
     Tiling window manager
-- sxhkd
+- **sxhkd**
 
     Program used for key binds
-- feh
+- **feh**
 
     For image viewing and wallpaper setting
-- alacritty
+- **alacritty**
 
     Terminal emulator
-- polybar
+- **polybar**
 
     Status bar
-- rofi
-
-    Task runner
-- pulseaudio and alsa-utils
-
-    For audio configuration
-- fish
-
-    Shell 
-- ranger
+- **ranger**
 
     File management
+- **rofi**
+
+    Task runner
+- **pulseaudio** and **alsa-utils**
+
+    For audio configuration
+- **fish**
+
+    Shell program
+
 
 
 
 ## Useful programs
-- code
+- **code**
 
     Programming
-- gimp
+- **gimp**
 
     Image editing
-- lxappearance
+- **lxappearance**
 
     For setting GTK themes
 
 
 # Nice to have programs
-- pfetch
+- **pfetch**
 
     Minimalist system info display
-
-- peaclock
+- **peaclock**
 
     Minimalist clock on terminal window
-
-- cava
+- **cava**
 
     Terminal audio visualizer
+- **fortune**
+
+    Makes an animal tell you a motivating phrase when running `cowfortune`
+
 
 ## Observations
 Use `$ xdg-mime default firefox.desktop x-scheme-handler/https x-scheme-handler/http` to make Firefox the default browser
+
+Run `$ rofi-theme-selector` to apply the gruvbox-dark-soft theme
+
+To enable drag and drop in Ranger install dragon-drop from the AUR; Create Ranger config files by typing `$ ranger --copy-config=all` and on the rc.conf file add this line:
+
+	```map <C-d> shell dragon-drop -a -x %p --and-exit```
+Now when you select a file and press ctrl + d, it will enable you to drag and drop it somewhere
