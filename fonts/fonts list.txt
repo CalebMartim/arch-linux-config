@@ -1,0 +1,6 @@
+- Monocraft at https://github.com/IdreesInc/Monocraft
+
+    for terminal, polybar and vscode
+- adobe-source-han-sans-jp-fonts at https://archlinux.org/packages/community/any/adobe-source-han-sans-jp-fonts/ 
+
+    for japanese characters
