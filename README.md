@@ -2,7 +2,7 @@
 My configuration files for my custom Arch Linux build
 ![](https://cdn.discordapp.com/attachments/326901357300678657/1018289234618093668/Screenshot_archlinux_2022-09-10_193619.png)
 
-## Base system programs
+## Base system packages
 - **xf86-video-amdgpu** 
 
     For graphics card drivers. (use xf86-video-intel if using an intel cpu)
@@ -49,7 +49,7 @@ My configuration files for my custom Arch Linux build
 
 
 
-## Useful programs
+## Useful packages
 - **code**
 
     Programming
@@ -61,7 +61,7 @@ My configuration files for my custom Arch Linux build
     For setting GTK themes
 
 
-# Nice to have programs
+## Nice to have packages
 - **pfetch**
 
     Minimalist system info display
