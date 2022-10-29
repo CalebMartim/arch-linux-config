@@ -14,7 +14,13 @@ My configuration files for my custom Arch Linux build
     For starting the xorg display server
 - **xdg-utils**
 
-    Program that helps integrate applications and your desktop. It helps adding a default browser for example. 
+    Program that helps integrate applications and your desktop. It helps adding a default browser for example.
+- **git**
+
+	Git
+- **paru**
+
+	AUR helper 
 - **picom**
 
     Compositor
@@ -59,6 +65,9 @@ My configuration files for my custom Arch Linux build
 - **lxappearance**
 
     For setting GTK themes
+- **unzip** and **zip**
+
+	to zip and unzip files
 
 
 ## Nice to have packages
@@ -68,6 +77,8 @@ My configuration files for my custom Arch Linux build
 - **peaclock**
 
     Minimalist clock on terminal window
+- **moc**
+	Music player on terminal (open with `$ mocp`) 
 - **cava**
 
     Terminal audio visualizer
@@ -81,7 +92,16 @@ Use `$ xdg-mime default firefox.desktop x-scheme-handler/https x-scheme-handler/
 
 Run `$ rofi-theme-selector` to apply the gruvbox-dark-soft theme
 
+To set up the gtk theme, you will download the theme at the link on the themes list, unzip the .zip file at the `~/.themes` directory and select that theme on lxappearance and hit "Apply"
+
+To set up a moc theme, first open moc and type T to open the themes tab, remember the name of your favorite theme and on the terminal do: `$ echo "Theme = *your theme* > ~/.moc/config`  
+
 To enable drag and drop in Ranger install dragon-drop from the AUR; Create Ranger config files by typing `$ ranger --copy-config=all` and on the rc.conf file add this line:
 
 	map <C-d> shell dragon-drop -a -x %p --and-exit
 Now when you select a file and press ctrl + d, it will enable you to drag and drop it somewhere
+
+To make fish the default shell, do:
+	
+	echo /usr/local/bin/fish | sudo tee -a /etc/shells
+	chsh -s /usr/local/bin/fish
