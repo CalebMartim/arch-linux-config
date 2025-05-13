@@ -56,15 +56,26 @@ My configuration files for my custom Arch Linux build
 
 
 ## Useful packages
-- **code**
+- **nvim**
 
-    Programming
+    Coding
+  
+- **zen-browser**
+
+    Good looking web browser based on Firefox
+
+- **anytype**
+
+    Note-taking app with free multi-device sync
+
 - **gimp**
 
     Image editing
+  
 - **lxappearance**
 
     For setting GTK themes
+  
 - **unzip** and **zip**
 
 	to zip and unzip files
@@ -74,17 +85,10 @@ My configuration files for my custom Arch Linux build
 - **pfetch**
 
     Minimalist system info display
-- **peaclock**
 
-    Minimalist clock on terminal window
-- **moc**
-	Music player on terminal (open with `$ mocp`) 
-- **cava**
+- **oneko**
 
-    Terminal audio visualizer
-- **fortune**
-
-    Makes an animal tell you a motivating phrase when running `cowfortune`
+    kitty-that-follows-your-mouse-pointer 
 
 
 ## Observations
