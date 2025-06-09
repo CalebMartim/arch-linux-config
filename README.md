@@ -106,7 +106,11 @@ To enable drag and drop in Ranger install dragon-drop from the AUR; Create Range
 	map <C-d> shell dragon-drop -a -x %p --and-exit
 Now when you select a file and press ctrl + d, it will enable you to drag and drop it somewhere
 
-To make fish the default shell, do:
+To make fish the default shell do:
 	
 	echo /usr/local/bin/fish | sudo tee -a /etc/shells
 	chsh -s /usr/local/bin/fish
+
+To disable the annoying beep that plays when you make an invalid key command (e.g pressing backspace on an empty terminal) do:
+
+	echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf
